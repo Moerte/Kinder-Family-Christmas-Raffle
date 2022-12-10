@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Christmas_font";
+  src: url(./fonts/alex-brush/AlexBrush-Regular.ttf);
+}
+@font-face {
+  font-family: "Christmas_font_2";
+  src: url(./fonts/cursive-sans-font/CursiveSans-3e6z.ttf);
+}
+
+body {
+  background-image: url("./img/forest_1.jpg");
+  height: 71vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: "Christmas_font_2", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.font-c{
+  font-family: "Christmas_font", sans-serif; 
+}
+
+label {
+  font-size: 1em;
+}
+
+.main {
+  background-image: linear-gradient(to right bottom,
+      rgba(195, 42, 42, 0.8),
+      rgba(242, 7, 7, 0.8)), url("./img/christmas_2.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.all-height {
+  height: 120vh;
+  position: relative;
+  transition: height 2s;
+}
+
+.half-height {
+  height: 20vh;
+  transition: height 2s;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+}
+
+.heading-primary {
+  color: #fff;
+  backface-visibility: hidden;
+  /*margin-bottom: 30px;*/
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+  display: block;
+  /*font-size: 0.65em;*/
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+  font-size: 14px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+progress {
+  animation: fadeInProgress ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeInProgress {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInProgress {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInProgress {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInProgress {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeInProgress {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
